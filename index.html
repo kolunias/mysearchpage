@@ -2,42 +2,23 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <style>
-            div {
-                text-align: center;
-                margin: 30px;
-                
-            }
-
-            h4 {
-                text-align: right;
-
-            }
-
-            .radius {
-                width: 400px;
-                text-align: center;
-                background: #f0f0f0; /* Цвет фона */
-                border: 1px solid black; /* Параметры рамки */
-                padding: 5px; /* Поля вокруг текста */
-                margin-bottom: 5px; /* Отступ снизу */
-                
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css">
+        
     </head>
     <body>
-        <h4>
-            <a href="imagesearch.html">Зображення</a>
-        </h4>
+        <div class="lnks">
+            <b>
+                <a href="imagesearch.html">Зображення</a>
+                <a href="advanced.html">Розштрений пошук</a>
+            </b>
+        </div>        
+        <img src="googlelogo.png" alt="google logo" />
         <form action="https://google.com/search">
-            <div style="border-radius: 50px;" class="radius">
-                <input type="text" name="q" size="50">
-            </div>
-                
+            <input class="text-row" type="text" name="q">
             <div>
-                <input type="submit" value="Google Search">
+                <input type="submit" value="Пошук Google">
             </div>
-            
+                                    
         </form>
     </body>
 </html>
