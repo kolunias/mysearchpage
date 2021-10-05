@@ -21,7 +21,7 @@ input {
     margin-bottom: 20px;
 }
 input:hover {
-    box-shadow: 2px 2px 2px 2px rgb(82, 81, 81);
+    box-shadow : 2px 2px 2px 2px rgb(82, 81, 81);
 }
 
 .text-row {
