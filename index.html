@@ -1,24 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div class="lnks">
-            <b>
-                <a href="imagesearch.html" target="_blank">Зображення</a>
-                <a href="advanced.html">Розштрений пошук</a>
-            </b>
-        </div>        
-        <img src="googlelogo.png" alt="google logo" />
-        <form action="https://google.com/search">
-            <input class="text-row" type="text" name="q">
-            <div>
-                <input type="submit" value="Пошук Google">
+<html lang="X-UA-Compatible">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google search</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="lnk">
+            <a href="imagesearch.html" target="_blank">Зображення</a>
+            <a href="advansrch.html" target="_blank">Розширений пошук</a>
+        </div>
+    </header>
+    <main>
+        <div class="img">
+            <img src="img/googlelogo_color_272x92dp.png" alt="Google">
+        </div>
+        <div class="form">
+            <div class="srchlogo">
+                <img src="img/searchlogo.png" alt="Search" width="20px" height="18px">
             </div>
-                                    
-        </form>
-    </body>
+            <form action="https://google.com/search">
+                <input class="text-row" type="text" name="q">
+        </div>
+        <div class="button">
+            <input type="submit" value="Пошук Google">
+            <input type="submit" value="Мені пощастить" name="btnI">
+        </div>        
+    </main>
+</body>
 </html>
