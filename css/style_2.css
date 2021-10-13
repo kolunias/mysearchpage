@@ -16,3 +16,20 @@ body {
     text-align: center;
     background-color: white;
 }
+
+.lnk {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    
+}
+
+a {
+    margin: 10px;
+    color: #202124;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
