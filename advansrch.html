@@ -10,16 +10,42 @@
 </head>
 <body>
     <header>
-        <div class="lnk">
-            <a href="#">Зображення</a>
-            <a href="#">Розширений пошук</a>
-        </div>
-    </header>
-    <main>
         <div class="img">
             <img src="img/googlelogo_color_272x92dp.png" alt="Google">
         </div>
-              
+        <div class="lnk">
+            <a href="index.html">Пошук Google</a>
+            <a href="imagesearch.html">Зображення</a>
+        </div>        
+    </header>
+    <main>
+       <h3 style="margin-left: 30px;">Розширений пошук</h3>
+       <hr>
+       <div class="title">
+           <span id="title-one">Знайти сторінки, що містять...</span>
+           <div> </div>
+           <span>Як це зробити в полі пошуку</span>
+        </div>
+        <div class="search-tab">        
+            <form action="https://google.com/search">
+                <label for="all-words">усі ці слова:</label> 
+                    <input class="text-row" id="all-words" type="text" name="as_q">
+                    <p>Введіть важливі слова: триколірний рет-тер’єр</p>                
+                    <label for="one-word">точне слово або фразу:</label>
+                    <input class="text-row" id="one-word" type="text" name="as_epq">
+                    <p>Візьміть точні слова в лапки: "рет-тер’єр"</p>                
+                    <label for="anyone-word">будь-яке з цих слів:</label>
+                    <input class="text-row" id="anyone-word" type="text" name="as_oq">
+                    <p>Введіть OR між усіма потрібними словами: мініатюрні OR стандартні</p>                
+                    <label for="none-word">жодне з цих слів:</label>
+                    <input class="text-row" id="none-word" type="text" name="as_eq">
+                    <p>Поставте знак мінус перед небажаними словами: -гризун, -"Джек Рассел"</p>
+                <div></div>
+                <div class="button">
+                    <input type="submit" value="Розширений пошук">
+                </div>
+            </form>
+        </div>     
     </main>
 </body>
 </html>
